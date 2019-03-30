@@ -64,7 +64,7 @@ String parts[] = event.split(" ");//splting the events so that we can use Name,C
 while (!pq.isEmpty()) {// we want to add all the students which are not served in one queue
 students.add((Student) pq.poll());
         }
-  return students;
+  return students;// returning students who are in the queue
     }
 }
 
